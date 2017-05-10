@@ -1,0 +1,29 @@
+body {
+    max-width: 1000px !important;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(11, 11, 64));
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+width: 100% !important
+}
+
+#logo {
+   position: inherit;
+    width: 50px !important;
+    display: flex;
+}
+
+.navbar-default {
+    background-image: linear-gradient(to bottom,#000 0,#0f2a42 100%)!important;
+    font-size: 12px;
+    
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff0cd;
+}
+.container {
+   max-width: 1000px !important;
+}
