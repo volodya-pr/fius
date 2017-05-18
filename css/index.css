@@ -1,5 +1,4 @@
 body {
-    max-width: 1000px !important;
     margin: 0 auto;
    /* background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(11, 11, 64));*/
 }
@@ -81,10 +80,7 @@ body {
 }
 #logoabout {
     float: left;
-}
-#about {
-    display: inline-flex;
-    height: 100vh;
+    margin: 40px;
 }
 
 #maps {
@@ -100,6 +96,10 @@ address {
 #section0 {
     margin-top: 15px;
 }
+/*
+.row {
+    margin-top: 20%;
+}*/
 #footer {
     background-color: #16193e;
 }
@@ -122,4 +122,19 @@ address {
 }
 #contact {
     margin-top: 80px;
+    height: auto !important;
+}
+.fil0 {
+    fill:#286090;
+    
+}
+.fil1 {
+    fill:#286090;
+    fill-rule:nonzero;
+    
+}
+.section1000 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
 }
